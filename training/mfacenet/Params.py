@@ -3,7 +3,7 @@ import torch
 Params = {
     1: dict(
         exp_id =  "0_mface",
-        data_root =  "", # location of .rec file
+        data_root =  "", # folder containing .rec file
         save_dir =  "", # models are saved here
         multi_flag =  0, # set to 1 to distribute loss layer weights among mutiple GPUs
         batch_size =  64,
