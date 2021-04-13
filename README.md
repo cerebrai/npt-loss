@@ -15,4 +15,4 @@ Provide the path of the training dataset in Params.py.
 
 Provide a path where the trained models will be saved in Params.py.
 
-Run train.sh.
+Run trainer.sh.
