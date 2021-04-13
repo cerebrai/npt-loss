@@ -9,7 +9,10 @@ Alternatively, run the following commands (assuming that anaconda is already ins
 
 conda create -n pytorch_npt
 ```
-Download the training datasets, i.e., CASIA and MS1M-v2 from the insightface repository [dataset-zoo](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo)
-Specify the path to the downloaded dataset in Params.py 
-Set a path for where the trained models will be saved.
-Run train.sh
+Download the training datasets, i.e., CASIA and MS1M-v2 from the insightface repository [dataset-zoo](https://github.com/deepinsight/insightface/wiki/Dataset-Zoo).
+
+Provide the path of the training dataset in Params.py. 
+
+Provide a path where the trained models will be saved in Params.py.
+
+Run train.sh.
