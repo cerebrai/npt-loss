@@ -18,6 +18,9 @@ Provide a path where the trained models will be saved in Params.py.
 Run trainer.sh.
 
 # Evaluation
+
+Pretrained models can be found [here](https://drive.google.com/drive/folders/1avkjV0zr1y7x7B2_DIJbVkkkezcEfTdE?usp=sharing)
+
 ## Small Scale (i.e., LFW, CFP etc)
 Open config.py
 
