@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 ALGO="NPT"
-trained_model="/vol/research/NOBACKUP/CVSSP/facer2vm/people/safwan_nobackup/saved_models/new_codes_ms1m_res/2_n_ms1m_res/model_epoch_21.pth"
-data_path="/vol/research/facer2vm_metric/people/safwan/datasets/megaface"
-anaconda_path="/vol/research/facer2vm_metric/people/safwan/toolboxes/anaconda3"
-DIM=512
+trained_model="" #path to saved checkpoint file
+data_path="" #path to megaface protocol folder
+anaconda_path="" #path of the folder where anaconda is installed
+DIM=512 # 512 for resnet and 256 for mobilefacenet
 DEVKIT=$data_path/devkit/experiments
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR
